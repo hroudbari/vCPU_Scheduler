@@ -1,0 +1,50 @@
+Author: Hamed Seyedroudbari
+09/19/20
+Advanced Operating Systems
+*********************************
+Project 1 - vCPU Scheduler
+
+Code Description
+*******************************************************************************
+The code implements a virtual CPU scheduler that decides how to map a 
+VCPU to a PCPU according to the current map (affinity) between a VCPU and 
+PCPU. The VCPU statistics collected using the libvirt APIs are used to find 
+the PCPU that best matches a VCPU's workload (according to avaiable utilization 
+statistics) and update VCPU->PCPU pinning accordingly. 
+
+*******************************************************************************
+
+
+Compile & Run Instructions (partly taken from HowToDoTest.md)
+*****************************************************************************
+For each test, you will need to follow the procedure outlined below:
+
+(Assuming testcase 1 as an example)
+1. Unzip the submitted zip file
+2. Navigate to ~/Hamed_Seyedroudbari_p1/cpu
+3. Type "make" to compile the vCPU Scheduler.
+4. Run the vCPU Scheduler binary with 
+	"./vcpu_scheduler [sampling_interval]", 
+	where the unit of the interval is in seconds.
+
+Please use the following sampling intervals for each test case:
+
+|Testcase --------- Interval(s)
+    1     ---------    5
+    2     ---------    5
+    3     ---------    5
+    4     ---------    4
+    5     ---------    1
+
+
+To view progress of vCPU Scheduler:
+1. Run monitor.py in a separate terminal window.
+2. Compile and run the memory coordinator using the steps listed above.
+3. Open another terminal window and start a testcase.
+4. View the monitor.py terminal to view the progress of the vCPU Scheduler.
+
+
+Please note that instructions to run the monitor.py as well as the testcases 
+are the same as what was provided in HowToDoTest.md. If necessary, please 
+visit those provided files for more details.
+*********************************************************************************

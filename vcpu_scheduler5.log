@@ -1,0 +1,780 @@
+Script started on 2020-09-19 17:57:57-0700
+]0;hamed@ubuntu: ~/Desktop/proj1/Project1/cpu[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1/Project1/cpu[00m$ ./monitor.py 
+--------------------------------------------------
+0 - usage: 0.0 | mapping []
+1 - usage: 0.0 | mapping []
+2 - usage: 0.0 | mapping []
+3 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 1.0 | mapping ['aos_vm7', 'aos_vm2']
+1 - usage: 0.0 | mapping ['aos_vm6']
+2 - usage: 1.0 | mapping ['aos_vm1', 'aos_vm8']
+3 - usage: 0.0 | mapping ['aos_vm4', 'aos_vm3', 'aos_vm5']
+--------------------------------------------------
+0 - usage: 2.0 | mapping ['aos_vm7', 'aos_vm2']
+1 - usage: 0.0 | mapping ['aos_vm6']
+2 - usage: 0.0 | mapping ['aos_vm1', 'aos_vm8']
+3 - usage: 0.0 | mapping ['aos_vm4', 'aos_vm3', 'aos_vm5']
+--------------------------------------------------
+0 - usage: 0.0 | mapping ['aos_vm2']
+1 - usage: 0.0 | mapping ['aos_vm6', 'aos_vm5', 'aos_vm7']
+2 - usage: 0.0 | mapping ['aos_vm1', 'aos_vm8']
+3 - usage: 1.0 | mapping ['aos_vm4', 'aos_vm3']
+--------------------------------------------------
+0 - usage: 0.0 | mapping ['aos_vm2']
+1 - usage: 4.0 | mapping ['aos_vm6', 'aos_vm5', 'aos_vm7']
+2 - usage: 2.0 | mapping ['aos_vm1', 'aos_vm8']
+3 - usage: 0.0 | mapping ['aos_vm4', 'aos_vm3']
+--------------------------------------------------
+0 - usage: 0.0 | mapping ['aos_vm7', 'aos_vm2']
+1 - usage: 1.0 | mapping ['aos_vm6', 'aos_vm3', 'aos_vm5']
+2 - usage: 1.0 | mapping ['aos_vm1', 'aos_vm8']
+3 - usage: 1.0 | mapping ['aos_vm4']
+--------------------------------------------------
+0 - usage: 0.0 | mapping ['aos_vm4', 'aos_vm7', 'aos_vm2']
+1 - usage: 0.0 | mapping ['aos_vm6']
+2 - usage: 0.0 | mapping ['aos_vm1', 'aos_vm8', 'aos_vm5']
+3 - usage: 0.0 | mapping ['aos_vm3']
+--------------------------------------------------
+0 - usage: 0.0 | mapping []
+1 - usage: 0.0 | mapping ['aos_vm6', 'aos_vm7', 'aos_vm2']
+2 - usage: 0.0 | mapping ['aos_vm1', 'aos_vm8', 'aos_vm5']
+3 - usage: 1.0 | mapping ['aos_vm4', 'aos_vm3']
+--------------------------------------------------
+0 - usage: 0.0 | mapping []
+1 - usage: 1.0 | mapping ['aos_vm6', 'aos_vm7', 'aos_vm2']
+2 - usage: 0.0 | mapping ['aos_vm1', 'aos_vm8', 'aos_vm5']
+3 - usage: 0.0 | mapping ['aos_vm4', 'aos_vm3']
+--------------------------------------------------
+0 - usage: 44.0 | mapping ['aos_vm4', 'aos_vm5', 'aos_vm2']
+1 - usage: 14.0 | mapping ['aos_vm3']
+2 - usage: 34.0 | mapping ['aos_vm1', 'aos_vm8']
+3 - usage: 31.0 | mapping ['aos_vm6', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 90.0 | mapping ['aos_vm4', 'aos_vm2']
+1 - usage: 49.0 | mapping ['aos_vm1']
+2 - usage: 135.0 | mapping ['aos_vm6', 'aos_vm5', 'aos_vm7']
+3 - usage: 81.0 | mapping ['aos_vm3', 'aos_vm8']
+--------------------------------------------------
+0 - usage: 45.0 | mapping ['aos_vm3', 'aos_vm2']
+1 - usage: 41.0 | mapping ['aos_vm5', 'aos_vm7']
+2 - usage: 47.0 | mapping ['aos_vm1', 'aos_vm6']
+3 - usage: 48.0 | mapping ['aos_vm4', 'aos_vm8']
+--------------------------------------------------
+0 - usage: 38.0 | mapping ['aos_vm1']
+1 - usage: 116.0 | mapping ['aos_vm6', 'aos_vm3', 'aos_vm5']
+2 - usage: 80.0 | mapping ['aos_vm4', 'aos_vm2']
+3 - usage: 76.0 | mapping ['aos_vm8', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 46.0 | mapping ['aos_vm7']
+1 - usage: 85.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 171.0 | mapping ['aos_vm1', 'aos_vm3', 'aos_vm8', 'aos_vm2']
+3 - usage: 46.0 | mapping ['aos_vm4']
+--------------------------------------------------
+0 - usage: 77.0 | mapping ['aos_vm1', 'aos_vm8']
+1 - usage: 84.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 104.0 | mapping ['aos_vm7', 'aos_vm2']
+3 - usage: 90.0 | mapping ['aos_vm4', 'aos_vm3']
+--------------------------------------------------
+0 - usage: 52.0 | mapping ['aos_vm4']
+1 - usage: 173.0 | mapping ['aos_vm6', 'aos_vm3', 'aos_vm8', 'aos_vm5']
+2 - usage: 47.0 | mapping ['aos_vm7']
+3 - usage: 80.0 | mapping ['aos_vm1', 'aos_vm2']
+--------------------------------------------------
+0 - usage: 77.0 | mapping ['aos_vm1', 'aos_vm7']
+1 - usage: 65.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 79.0 | mapping ['aos_vm3', 'aos_vm8']
+3 - usage: 83.0 | mapping ['aos_vm4', 'aos_vm2']
+--------------------------------------------------
+0 - usage: 97.0 | mapping ['aos_vm8', 'aos_vm7']
+1 - usage: 81.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 78.0 | mapping ['aos_vm4', 'aos_vm3']
+3 - usage: 62.0 | mapping ['aos_vm1', 'aos_vm2']
+--------------------------------------------------
+0 - usage: 80.0 | mapping ['aos_vm1', 'aos_vm8']
+1 - usage: 79.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 80.0 | mapping ['aos_vm4', 'aos_vm3']
+3 - usage: 78.0 | mapping ['aos_vm7', 'aos_vm2']
+--------------------------------------------------
+0 - usage: 84.0 | mapping ['aos_vm1', 'aos_vm8']
+1 - usage: 77.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 82.0 | mapping ['aos_vm3', 'aos_vm7']
+3 - usage: 83.0 | mapping ['aos_vm4', 'aos_vm2']
+--------------------------------------------------
+0 - usage: 99.0 | mapping ['aos_vm8', 'aos_vm7']
+1 - usage: 80.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 33.0 | mapping ['aos_vm3']
+3 - usage: 114.0 | mapping ['aos_vm4', 'aos_vm1', 'aos_vm2']
+--------------------------------------------------
+0 - usage: 82.0 | mapping ['aos_vm1', 'aos_vm8']
+1 - usage: 76.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 81.0 | mapping ['aos_vm3', 'aos_vm7']
+3 - usage: 79.0 | mapping ['aos_vm4', 'aos_vm2']
+--------------------------------------------------
+0 - usage: 99.0 | mapping ['aos_vm4', 'aos_vm8']
+1 - usage: 80.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 32.0 | mapping ['aos_vm3']
+3 - usage: 110.0 | mapping ['aos_vm1', 'aos_vm7', 'aos_vm2']
+--------------------------------------------------
+0 - usage: 50.0 | mapping ['aos_vm8']
+1 - usage: 79.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 81.0 | mapping ['aos_vm3', 'aos_vm7']
+3 - usage: 103.0 | mapping ['aos_vm4', 'aos_vm1', 'aos_vm2']
+--------------------------------------------------
+0 - usage: 99.0 | mapping ['aos_vm4', 'aos_vm8']
+1 - usage: 76.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 28.0 | mapping ['aos_vm3']
+3 - usage: 98.0 | mapping ['aos_vm1', 'aos_vm7', 'aos_vm2']
+--------------------------------------------------
+0 - usage: 44.0 | mapping ['aos_vm8']
+1 - usage: 77.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 105.0 | mapping ['aos_vm4', 'aos_vm3', 'aos_vm2']
+3 - usage: 69.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 50.0 | mapping ['aos_vm8']
+1 - usage: 77.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 103.0 | mapping ['aos_vm4', 'aos_vm3', 'aos_vm2']
+3 - usage: 79.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 81.0 | mapping ['aos_vm8', 'aos_vm2']
+1 - usage: 81.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 70.0 | mapping ['aos_vm4', 'aos_vm3']
+3 - usage: 80.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 83.0 | mapping ['aos_vm8', 'aos_vm2']
+1 - usage: 84.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 83.0 | mapping ['aos_vm4', 'aos_vm3']
+3 - usage: 83.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 80.0 | mapping ['aos_vm8', 'aos_vm2']
+1 - usage: 83.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 83.0 | mapping ['aos_vm4', 'aos_vm3']
+3 - usage: 83.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 81.0 | mapping ['aos_vm8', 'aos_vm2']
+1 - usage: 82.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 82.0 | mapping ['aos_vm4', 'aos_vm3']
+3 - usage: 81.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 80.0 | mapping ['aos_vm8', 'aos_vm2']
+1 - usage: 81.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 83.0 | mapping ['aos_vm4', 'aos_vm3']
+3 - usage: 82.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 81.0 | mapping ['aos_vm8', 'aos_vm2']
+1 - usage: 85.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 84.0 | mapping ['aos_vm4', 'aos_vm3']
+3 - usage: 82.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 78.0 | mapping ['aos_vm8', 'aos_vm2']
+1 - usage: 80.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 81.0 | mapping ['aos_vm4', 'aos_vm3']
+3 - usage: 81.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 80.0 | mapping ['aos_vm8', 'aos_vm2']
+1 - usage: 82.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 83.0 | mapping ['aos_vm4', 'aos_vm3']
+3 - usage: 79.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 79.0 | mapping ['aos_vm8', 'aos_vm2']
+1 - usage: 83.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 84.0 | mapping ['aos_vm4', 'aos_vm3']
+3 - usage: 83.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 81.0 | mapping ['aos_vm8', 'aos_vm2']
+1 - usage: 83.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 83.0 | mapping ['aos_vm4', 'aos_vm3']
+3 - usage: 84.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 79.0 | mapping ['aos_vm8', 'aos_vm2']
+1 - usage: 83.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 81.0 | mapping ['aos_vm4', 'aos_vm3']
+3 - usage: 82.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 79.0 | mapping ['aos_vm8', 'aos_vm2']
+1 - usage: 79.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 82.0 | mapping ['aos_vm4', 'aos_vm3']
+3 - usage: 82.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 81.0 | mapping ['aos_vm8', 'aos_vm2']
+1 - usage: 80.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 82.0 | mapping ['aos_vm4', 'aos_vm3']
+3 - usage: 80.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 82.0 | mapping ['aos_vm8', 'aos_vm2']
+1 - usage: 83.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 80.0 | mapping ['aos_vm4', 'aos_vm3']
+3 - usage: 82.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 81.0 | mapping ['aos_vm8', 'aos_vm2']
+1 - usage: 82.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 82.0 | mapping ['aos_vm4', 'aos_vm3']
+3 - usage: 84.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 84.0 | mapping ['aos_vm8', 'aos_vm2']
+1 - usage: 83.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 82.0 | mapping ['aos_vm4', 'aos_vm3']
+3 - usage: 82.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 83.0 | mapping ['aos_vm8', 'aos_vm2']
+1 - usage: 82.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 80.0 | mapping ['aos_vm4', 'aos_vm3']
+3 - usage: 85.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 80.0 | mapping ['aos_vm8', 'aos_vm2']
+1 - usage: 79.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 79.0 | mapping ['aos_vm4', 'aos_vm3']
+3 - usage: 80.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 81.0 | mapping ['aos_vm8', 'aos_vm2']
+1 - usage: 82.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 82.0 | mapping ['aos_vm4', 'aos_vm3']
+3 - usage: 79.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 80.0 | mapping ['aos_vm8', 'aos_vm2']
+1 - usage: 80.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 80.0 | mapping ['aos_vm4', 'aos_vm3']
+3 - usage: 81.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 83.0 | mapping ['aos_vm8', 'aos_vm2']
+1 - usage: 81.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 79.0 | mapping ['aos_vm4', 'aos_vm3']
+3 - usage: 80.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 80.0 | mapping ['aos_vm8', 'aos_vm2']
+1 - usage: 84.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 83.0 | mapping ['aos_vm4', 'aos_vm3']
+3 - usage: 82.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 84.0 | mapping ['aos_vm8', 'aos_vm2']
+1 - usage: 84.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 82.0 | mapping ['aos_vm4', 'aos_vm3']
+3 - usage: 82.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 84.0 | mapping ['aos_vm8', 'aos_vm2']
+1 - usage: 81.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 82.0 | mapping ['aos_vm4', 'aos_vm3']
+3 - usage: 84.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 80.0 | mapping ['aos_vm8', 'aos_vm2']
+1 - usage: 82.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 77.0 | mapping ['aos_vm4', 'aos_vm3']
+3 - usage: 83.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 83.0 | mapping ['aos_vm8', 'aos_vm2']
+1 - usage: 81.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 80.0 | mapping ['aos_vm4', 'aos_vm3']
+3 - usage: 80.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 83.0 | mapping ['aos_vm8', 'aos_vm2']
+1 - usage: 84.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 81.0 | mapping ['aos_vm4', 'aos_vm3']
+3 - usage: 84.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 82.0 | mapping ['aos_vm8', 'aos_vm2']
+1 - usage: 82.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 83.0 | mapping ['aos_vm4', 'aos_vm3']
+3 - usage: 84.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 84.0 | mapping ['aos_vm8', 'aos_vm2']
+1 - usage: 83.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 81.0 | mapping ['aos_vm4', 'aos_vm3']
+3 - usage: 82.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 76.0 | mapping ['aos_vm8', 'aos_vm2']
+1 - usage: 75.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 76.0 | mapping ['aos_vm4', 'aos_vm3']
+3 - usage: 74.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 79.0 | mapping ['aos_vm8', 'aos_vm2']
+1 - usage: 67.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 84.0 | mapping ['aos_vm4', 'aos_vm3']
+3 - usage: 85.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 60.0 | mapping ['aos_vm8', 'aos_vm2']
+1 - usage: 75.0 | mapping ['aos_vm6', 'aos_vm3', 'aos_vm5']
+2 - usage: 40.0 | mapping ['aos_vm4']
+3 - usage: 73.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 63.0 | mapping ['aos_vm8', 'aos_vm2']
+1 - usage: 72.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 87.0 | mapping ['aos_vm4', 'aos_vm3']
+3 - usage: 80.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 77.0 | mapping ['aos_vm8', 'aos_vm2']
+1 - usage: 67.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 70.0 | mapping ['aos_vm4', 'aos_vm3']
+3 - usage: 73.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 76.0 | mapping ['aos_vm8', 'aos_vm2']
+1 - usage: 82.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 77.0 | mapping ['aos_vm4', 'aos_vm3']
+3 - usage: 78.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 82.0 | mapping ['aos_vm8', 'aos_vm2']
+1 - usage: 81.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 81.0 | mapping ['aos_vm4', 'aos_vm3']
+3 - usage: 80.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 84.0 | mapping ['aos_vm8', 'aos_vm2']
+1 - usage: 81.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 80.0 | mapping ['aos_vm4', 'aos_vm3']
+3 - usage: 83.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 81.0 | mapping ['aos_vm8', 'aos_vm2']
+1 - usage: 84.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 82.0 | mapping ['aos_vm4', 'aos_vm3']
+3 - usage: 84.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 83.0 | mapping ['aos_vm8', 'aos_vm2']
+1 - usage: 83.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 80.0 | mapping ['aos_vm4', 'aos_vm3']
+3 - usage: 81.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 79.0 | mapping ['aos_vm8', 'aos_vm2']
+1 - usage: 77.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 78.0 | mapping ['aos_vm4', 'aos_vm3']
+3 - usage: 78.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 83.0 | mapping ['aos_vm8', 'aos_vm2']
+1 - usage: 82.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 82.0 | mapping ['aos_vm4', 'aos_vm3']
+3 - usage: 82.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 84.0 | mapping ['aos_vm8', 'aos_vm2']
+1 - usage: 81.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 83.0 | mapping ['aos_vm4', 'aos_vm3']
+3 - usage: 82.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 73.0 | mapping ['aos_vm8', 'aos_vm2']
+1 - usage: 73.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 76.0 | mapping ['aos_vm4', 'aos_vm3']
+3 - usage: 75.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 63.0 | mapping ['aos_vm8', 'aos_vm2']
+1 - usage: 74.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 72.0 | mapping ['aos_vm4', 'aos_vm3']
+3 - usage: 62.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 102.0 | mapping ['aos_vm4', 'aos_vm8', 'aos_vm2']
+1 - usage: 80.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 26.0 | mapping ['aos_vm3']
+3 - usage: 79.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 80.0 | mapping ['aos_vm4', 'aos_vm2']
+1 - usage: 81.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 72.0 | mapping ['aos_vm3', 'aos_vm8']
+3 - usage: 80.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 81.0 | mapping ['aos_vm4', 'aos_vm2']
+1 - usage: 83.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 83.0 | mapping ['aos_vm3', 'aos_vm8']
+3 - usage: 83.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 81.0 | mapping ['aos_vm4', 'aos_vm2']
+1 - usage: 83.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 83.0 | mapping ['aos_vm3', 'aos_vm8']
+3 - usage: 79.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 80.0 | mapping ['aos_vm4', 'aos_vm2']
+1 - usage: 84.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 81.0 | mapping ['aos_vm3', 'aos_vm8']
+3 - usage: 79.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 82.0 | mapping ['aos_vm4', 'aos_vm2']
+1 - usage: 81.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 81.0 | mapping ['aos_vm3', 'aos_vm8']
+3 - usage: 80.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 81.0 | mapping ['aos_vm4', 'aos_vm2']
+1 - usage: 81.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 79.0 | mapping ['aos_vm3', 'aos_vm8']
+3 - usage: 81.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 81.0 | mapping ['aos_vm4', 'aos_vm2']
+1 - usage: 80.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 82.0 | mapping ['aos_vm3', 'aos_vm8']
+3 - usage: 82.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 82.0 | mapping ['aos_vm4', 'aos_vm2']
+1 - usage: 83.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 81.0 | mapping ['aos_vm3', 'aos_vm8']
+3 - usage: 80.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 76.0 | mapping ['aos_vm4', 'aos_vm2']
+1 - usage: 69.0 | mapping ['aos_vm6', 'aos_vm5']
+2 - usage: 79.0 | mapping ['aos_vm3', 'aos_vm8']
+3 - usage: 83.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 29.0 | mapping ['aos_vm2']
+1 - usage: 94.0 | mapping ['aos_vm4', 'aos_vm6', 'aos_vm5']
+2 - usage: 81.0 | mapping ['aos_vm3', 'aos_vm8']
+3 - usage: 77.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 62.0 | mapping ['aos_vm5', 'aos_vm2']
+1 - usage: 81.0 | mapping ['aos_vm4', 'aos_vm6']
+2 - usage: 83.0 | mapping ['aos_vm3', 'aos_vm8']
+3 - usage: 82.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 56.0 | mapping ['aos_vm5', 'aos_vm2']
+1 - usage: 98.0 | mapping ['aos_vm4', 'aos_vm6']
+2 - usage: 82.0 | mapping ['aos_vm3', 'aos_vm8']
+3 - usage: 83.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 86.0 | mapping ['aos_vm1', 'aos_vm5', 'aos_vm2']
+1 - usage: 100.0 | mapping ['aos_vm4', 'aos_vm6']
+2 - usage: 81.0 | mapping ['aos_vm3', 'aos_vm8']
+3 - usage: 52.0 | mapping ['aos_vm7']
+--------------------------------------------------
+0 - usage: 59.0 | mapping ['aos_vm5', 'aos_vm2']
+1 - usage: 99.0 | mapping ['aos_vm4', 'aos_vm6']
+2 - usage: 81.0 | mapping ['aos_vm3', 'aos_vm8']
+3 - usage: 85.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 94.0 | mapping ['aos_vm4', 'aos_vm5', 'aos_vm2']
+1 - usage: 51.0 | mapping ['aos_vm6']
+2 - usage: 78.0 | mapping ['aos_vm3', 'aos_vm8']
+3 - usage: 77.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 70.0 | mapping ['aos_vm4', 'aos_vm5']
+1 - usage: 87.0 | mapping ['aos_vm6', 'aos_vm2']
+2 - usage: 83.0 | mapping ['aos_vm3', 'aos_vm8']
+3 - usage: 80.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 82.0 | mapping ['aos_vm4', 'aos_vm5']
+1 - usage: 85.0 | mapping ['aos_vm6', 'aos_vm2']
+2 - usage: 85.0 | mapping ['aos_vm3', 'aos_vm8']
+3 - usage: 81.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 82.0 | mapping ['aos_vm4', 'aos_vm5']
+1 - usage: 82.0 | mapping ['aos_vm6', 'aos_vm2']
+2 - usage: 83.0 | mapping ['aos_vm3', 'aos_vm8']
+3 - usage: 83.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 82.0 | mapping ['aos_vm4', 'aos_vm5']
+1 - usage: 83.0 | mapping ['aos_vm6', 'aos_vm2']
+2 - usage: 81.0 | mapping ['aos_vm3', 'aos_vm8']
+3 - usage: 81.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 80.0 | mapping ['aos_vm4', 'aos_vm5']
+1 - usage: 84.0 | mapping ['aos_vm6', 'aos_vm2']
+2 - usage: 84.0 | mapping ['aos_vm3', 'aos_vm8']
+3 - usage: 81.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 83.0 | mapping ['aos_vm4', 'aos_vm5']
+1 - usage: 84.0 | mapping ['aos_vm6', 'aos_vm2']
+2 - usage: 82.0 | mapping ['aos_vm3', 'aos_vm8']
+3 - usage: 83.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 75.0 | mapping ['aos_vm4', 'aos_vm5']
+1 - usage: 80.0 | mapping ['aos_vm6', 'aos_vm2']
+2 - usage: 80.0 | mapping ['aos_vm3', 'aos_vm8']
+3 - usage: 80.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 77.0 | mapping ['aos_vm4', 'aos_vm5']
+1 - usage: 70.0 | mapping ['aos_vm6', 'aos_vm2']
+2 - usage: 74.0 | mapping ['aos_vm3', 'aos_vm8']
+3 - usage: 75.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 68.0 | mapping ['aos_vm4', 'aos_vm5']
+1 - usage: 62.0 | mapping ['aos_vm6', 'aos_vm2']
+2 - usage: 67.0 | mapping ['aos_vm3', 'aos_vm8']
+3 - usage: 67.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 74.0 | mapping ['aos_vm4', 'aos_vm5']
+1 - usage: 74.0 | mapping ['aos_vm6', 'aos_vm2']
+2 - usage: 71.0 | mapping ['aos_vm3', 'aos_vm8']
+3 - usage: 71.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 83.0 | mapping ['aos_vm4', 'aos_vm5']
+1 - usage: 83.0 | mapping ['aos_vm6', 'aos_vm2']
+2 - usage: 83.0 | mapping ['aos_vm3', 'aos_vm8']
+3 - usage: 83.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 81.0 | mapping ['aos_vm4', 'aos_vm5']
+1 - usage: 82.0 | mapping ['aos_vm6', 'aos_vm2']
+2 - usage: 84.0 | mapping ['aos_vm3', 'aos_vm8']
+3 - usage: 81.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 81.0 | mapping ['aos_vm4', 'aos_vm5']
+1 - usage: 82.0 | mapping ['aos_vm6', 'aos_vm2']
+2 - usage: 81.0 | mapping ['aos_vm3', 'aos_vm8']
+3 - usage: 82.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 81.0 | mapping ['aos_vm4', 'aos_vm5']
+1 - usage: 81.0 | mapping ['aos_vm6', 'aos_vm2']
+2 - usage: 85.0 | mapping ['aos_vm3', 'aos_vm8']
+3 - usage: 83.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 80.0 | mapping ['aos_vm4', 'aos_vm5']
+1 - usage: 68.0 | mapping ['aos_vm6', 'aos_vm2']
+2 - usage: 81.0 | mapping ['aos_vm3', 'aos_vm8']
+3 - usage: 81.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 77.0 | mapping ['aos_vm4', 'aos_vm5']
+1 - usage: 76.0 | mapping ['aos_vm6', 'aos_vm2']
+2 - usage: 80.0 | mapping ['aos_vm3', 'aos_vm8']
+3 - usage: 75.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 75.0 | mapping ['aos_vm4', 'aos_vm5']
+1 - usage: 78.0 | mapping ['aos_vm6', 'aos_vm2']
+2 - usage: 78.0 | mapping ['aos_vm3', 'aos_vm8']
+3 - usage: 75.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 80.0 | mapping ['aos_vm4', 'aos_vm5']
+1 - usage: 83.0 | mapping ['aos_vm6', 'aos_vm2']
+2 - usage: 80.0 | mapping ['aos_vm3', 'aos_vm8']
+3 - usage: 79.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 79.0 | mapping ['aos_vm4', 'aos_vm5']
+1 - usage: 79.0 | mapping ['aos_vm6', 'aos_vm2']
+2 - usage: 78.0 | mapping ['aos_vm3', 'aos_vm8']
+3 - usage: 78.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 64.0 | mapping ['aos_vm4', 'aos_vm5']
+1 - usage: 78.0 | mapping ['aos_vm6', 'aos_vm2']
+2 - usage: 81.0 | mapping ['aos_vm3', 'aos_vm8']
+3 - usage: 84.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 51.0 | mapping ['aos_vm4', 'aos_vm5']
+1 - usage: 36.0 | mapping ['aos_vm6', 'aos_vm2']
+2 - usage: 46.0 | mapping ['aos_vm3', 'aos_vm8']
+3 - usage: 42.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 74.0 | mapping ['aos_vm4', 'aos_vm5']
+1 - usage: 76.0 | mapping ['aos_vm6', 'aos_vm2']
+2 - usage: 77.0 | mapping ['aos_vm3', 'aos_vm8']
+3 - usage: 72.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 75.0 | mapping ['aos_vm4', 'aos_vm5']
+1 - usage: 74.0 | mapping ['aos_vm6', 'aos_vm2']
+2 - usage: 75.0 | mapping ['aos_vm3', 'aos_vm8']
+3 - usage: 73.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 72.0 | mapping ['aos_vm4', 'aos_vm5']
+1 - usage: 74.0 | mapping ['aos_vm6', 'aos_vm2']
+2 - usage: 67.0 | mapping ['aos_vm3', 'aos_vm8']
+3 - usage: 71.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 71.0 | mapping ['aos_vm4', 'aos_vm5']
+1 - usage: 74.0 | mapping ['aos_vm6', 'aos_vm2']
+2 - usage: 75.0 | mapping ['aos_vm3', 'aos_vm8']
+3 - usage: 76.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 78.0 | mapping ['aos_vm4', 'aos_vm5']
+1 - usage: 75.0 | mapping ['aos_vm6', 'aos_vm2']
+2 - usage: 73.0 | mapping ['aos_vm3', 'aos_vm8']
+3 - usage: 76.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 73.0 | mapping ['aos_vm4', 'aos_vm5']
+1 - usage: 71.0 | mapping ['aos_vm6', 'aos_vm2']
+2 - usage: 72.0 | mapping ['aos_vm3', 'aos_vm8']
+3 - usage: 71.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 69.0 | mapping ['aos_vm4', 'aos_vm5']
+1 - usage: 65.0 | mapping ['aos_vm6', 'aos_vm2']
+2 - usage: 68.0 | mapping ['aos_vm3', 'aos_vm8']
+3 - usage: 71.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 79.0 | mapping ['aos_vm4', 'aos_vm5']
+1 - usage: 80.0 | mapping ['aos_vm6', 'aos_vm2']
+2 - usage: 75.0 | mapping ['aos_vm3', 'aos_vm8']
+3 - usage: 79.0 | mapping ['aos_vm1', 'aos_vm7']
+--------------------------------------------------
+0 - usage: 73.0 | mapping ['aos_vm4', 'aos_vm5']
+1 - usage: 74.0 | mapping ['aos_vm6', 'aos_vm2']
+2 - usage: 73.0 | mapping ['aos_vm3', 'aos_vm8']
+3 - usage: 73.0 | mapping ['aos_vm1', 'aos_vm7']
+^CTraceback (most recent call last):
+  File "./monitor.py", line 117, in <module>
+    s.run()
+  File "/usr/lib/python2.7/sched.py", line 111, in run
+    delayfunc(time - now)
+KeyboardInterrupt
+]0;hamed@ubuntu: ~/Desktop/proj1/Project1/cpu[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1/Project1/cpu[00m$ c[Kcd ../..
+]0;hamed@ubuntu: ~/Desktop/proj1[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1[00m$ ls
+[0m[01;34mcpu[0m  [01;34mmemory[0m  [01;34mProject1[0m  validateSubmission.py  [01;32mvcpu_scheduler[0m
+]0;hamed@ubuntu: ~/Desktop/proj1[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1[00m$ zip Hamed_Seyedroudbari_p1.zip cpu memory
+  adding: cpu/ (stored 0%)
+  adding: memory/ (stored 0%)
+]0;hamed@ubuntu: ~/Desktop/proj1[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1[00m$ zip Hamed_Seyedroudbari_p1.zip cpu memory[C[1@ [1@-[1@r[C[C[C[C
+updating: cpu/ (stored 0%)
+updating: memory/ (stored 0%)
+  adding: cpu/vcpu_scheduler1.log (deflated 96%)
+  adding: cpu/vcpu_scheduler3.log (deflated 96%)
+  adding: cpu/Readme (deflated 57%)
+  adding: cpu/vcpu_scheduler.c (deflated 79%)
+  adding: cpu/Makefile (deflated 55%)
+  adding: cpu/vcpu_scheduler4.log (deflated 95%)
+  adding: cpu/vcpu_scheduler5.log (deflated 94%)
+  adding: cpu/vcpu_scheduler2.log (deflated 95%)
+  adding: memory/memory_coordinator.log (deflated 94%)
+  adding: memory/Readme (deflated 56%)
+  adding: memory/memory_coordinator1.log (deflated 91%)
+  adding: memory/Makefile (deflated 55%)
+  adding: memory/memory_coordinator.c (deflated 74%)
+  adding: memory/memory_coordinator3.log (deflated 94%)
+]0;hamed@ubuntu: ~/Desktop/proj1[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1[00m$ o[K./p[Kvalidat[Ke[K[K[K[K[K[K[K[K[Kpython
+python      python2.7   python3.6   python3m    
+python2     python3     python3.6m  
+]0;hamed@ubuntu: ~/Desktop/proj1[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1[00m$ python
+python      python2.7   python3.6   python3m    
+python2     python3     python3.6m  
+]0;hamed@ubuntu: ~/Desktop/proj1[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1[00m$ python
+python      python2.7   python3.6   python3m    
+python2     python3     python3.6m  
+]0;hamed@ubuntu: ~/Desktop/proj1[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1[00m$ python[K[K[K[K[K[Kls
+[0m[01;34mcpu[0m                         [01;34mmemory[0m    validateSubmission.py
+[01;31mHamed_Seyedroudbari_p1.zip[0m  [01;34mProject1[0m  [01;32mvcpu_scheduler[0m
+]0;hamed@ubuntu: ~/Desktop/proj1[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1[00m$ python validateSubmission.py Hamed_Seyedroudbari_p11.zip 
+Invalid Submission Structure. Check Canvas instructions and make sure that all the files listed are present in your zip file
+]0;hamed@ubuntu: ~/Desktop/proj1[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1[00m$ [K]0;hamed@ubuntu: ~/Desktop/proj1[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1[00m$ [K]0;hamed@ubuntu: ~/Desktop/proj1[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1[00m$ [K]0;hamed@ubuntu: ~/Desktop/proj1[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1[00m$ [K]0;hamed@ubuntu: ~/Desktop/proj1[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1[00m$ [K]0;hamed@ubuntu: ~/Desktop/proj1[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1[00m$ [K]0;hamed@ubuntu: ~/Desktop/proj1[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1[00m$ [K]0;hamed@ubuntu: ~/Desktop/proj1[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1[00m$ [K]0;hamed@ubuntu: ~/Desktop/proj1[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1[00m$ [K]0;hamed@ubuntu: ~/Desktop/proj1[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1[00m$ [K]0;hamed@ubuntu: ~/Desktop/proj1[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1[00m$ [K]0;hamed@ubuntu: ~/Desktop/proj1[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1[00m$ [K]0;hamed@ubuntu: ~/Desktop/proj1[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1[00m$ [K]0;hamed@ubuntu: ~/Desktop/proj1[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1[00m$ [K]0;hamed@ubuntu: ~/Desktop/proj1[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1[00m$ ls
+[0m[01;34mcpu[0m  [01;31mHamed_Seyedroudbari_p1.zip[0m  [01;34mmemory[0m  [01;34mProject1[0m  validateSubmission.py  [01;32mvcpu_scheduler[0m
+]0;hamed@ubuntu: ~/Desktop/proj1[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1[00m$ rm Hamed_Seyedroudbari_p1.zip 
+]0;hamed@ubuntu: ~/Desktop/proj1[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1[00m$ s[Kls
+[0m[01;34mcpu[0m  [01;34mmemory[0m  [01;34mProject1[0m  validateSubmission.py  [01;32mvcpu_scheduler[0m
+]0;hamed@ubuntu: ~/Desktop/proj1[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1[00m$ lsrm Hamed_Seyedroudbari_p1.zip ls[Kpython validateSubmission.py Hamed_Seyedroudbari_p1.zip [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kpython validateSubmission.py Hamed_Seyedroudbari_p1.zip [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kzip -r Hamed_Seyedroudbari_p1.zip cpu memory[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3@-r [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+  adding: cpu/ (stored 0%)
+  adding: cpu/vcpu_scheduler1.log (deflated 96%)
+  adding: cpu/vcpu_scheduler3.log (deflated 96%)
+  adding: cpu/Readme (deflated 57%)
+  adding: cpu/vcpu_scheduler.c (deflated 79%)
+  adding: cpu/Makefile (deflated 55%)
+  adding: cpu/vcpu_scheduler4.log (deflated 95%)
+  adding: cpu/vcpu_scheduler5.log (deflated 93%)
+  adding: cpu/vcpu_scheduler2.log (deflated 95%)
+  adding: memory/ (stored 0%)
+  adding: memory/memory_coordinator2.log (deflated 94%)
+  adding: memory/Readme (deflated 56%)
+  adding: memory/memory_coordinator1.log (deflated 91%)
+  adding: memory/Makefile (deflated 55%)
+  adding: memory/memory_coordinator.c (deflated 74%)
+  adding: memory/memory_coordinator3.log (deflated 94%)
+]0;hamed@ubuntu: ~/Desktop/proj1[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1[00m$ zip -r Hamed_Seyedroudbari_p1.zip cpu memory[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Krm Hamed_Seyedroudbari_p1.zip ls[Kpython validateSubmission.py Hamed_Seyedroudbari_p1.zip 
+Invalid Submission Structure. Check Canvas instructions and make sure that all the files listed are present in your zip file
+]0;hamed@ubuntu: ~/Desktop/proj1[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1[00m$ python validateSubmission.py Hamed_Seyedroudbari_p1.zip 
+Invalid Submission Structure. Check Canvas instructions and make sure that all the files listed are present in your zip file
+]0;hamed@ubuntu: ~/Desktop/proj1[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1[00m$ p[Kgedit validateSubmission.py &
+[1] 14504
+]0;hamed@ubuntu: ~/Desktop/proj1[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1[00m$ ls
+[0m[01;34mcpu[0m  [01;31mHamed_Seyedroudbari_p1.zip[0m  [01;34mmemory[0m  [01;34mProject1[0m  validateSubmission.py  [01;32mvcpu_scheduler[0m
+]0;hamed@ubuntu: ~/Desktop/proj1[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1[00m$ pwd
+/home/hamed/Desktop/proj1
+]0;hamed@ubuntu: ~/Desktop/proj1[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1[00m$ pwd[1Plsgedit validateSubmission.py &python validateSubmission.py Hamed_Seyedroudbari_p1.zip [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kzip -r Hamed_Seyedroudbari_p1.zip cpu memory[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Ppython validateSubmission.py Hzip -r Hamed_Seyedroudbari_p1.zip cpu memory[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Krm Hamed_Seyedroudbari_p1.zip ls[Krm Hamed_Seyedroudbari_p1.zip ls[Kzip -r Hamed_Seyedroudbari_p1.zip cpu memory[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Ppython validateSubmission.py H[1Pgedit validateSubmission.py &ls[Kpwd[1Plsgedit validateSubmission.py &python validateSubmission.py Hzip -r Hamed_Seyedroudbari_p1.zip cpu memory[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Krm Hamed_Seyedroudbari_p1.zip ls[Kpython validateSubmission.py Hamed_Seyedroudbari_p1.zip [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kpython validateSubmission.py Hamed_Seyedroudbari_p1.zip [25@/home/hamed/Desktop/proj1
+Traceback (most recent call last):
+  File "validateSubmission.py", line 36, in <module>
+    except FileNotFoundError or FileExistsError:
+NameError: name 'FileNotFoundError' is not defined
+]0;hamed@ubuntu: ~/Desktop/proj1[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1[00m$ python validateSubmission.py /home/hamed/Desktop/proj1Hamed_Seyedroudbari_p1.zip [1@/[C[C
+Invalid Submission Structure. Check Canvas instructions and make sure that all the files listed are present in your zip file
+]0;hamed@ubuntu: ~/Desktop/proj1[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1[00m$ python validateSubmission.py /home/hamed/Desktop/proj1/Hamed_Seyedroudbari_p1.zip [1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cwd[K[1Plsgedit validateSubmission.py &python validateSubmission.py Hzip -r Hamed_Seyedroudbari_p1.zip cpu memory
+  adding: cpu/ (stored 0%)
+  adding: cpu/vcpu_scheduler1.log (deflated 96%)
+  adding: cpu/vcpu_scheduler3.log (deflated 96%)
+  adding: cpu/Readme (deflated 57%)
+  adding: cpu/vcpu_scheduler.c (deflated 79%)
+  adding: cpu/Makefile (deflated 55%)
+  adding: cpu/vcpu_scheduler4.log (deflated 95%)
+  adding: cpu/vcpu_scheduler5.log (deflated 93%)
+  adding: cpu/vcpu_scheduler2.log (deflated 95%)
+  adding: memory/ (stored 0%)
+  adding: memory/memory_coordinator2.log (deflated 94%)
+  adding: memory/Readme (deflated 56%)
+  adding: memory/memory_coordinator1.log (deflated 91%)
+  adding: memory/Makefile (deflated 55%)
+  adding: memory/memory_coordinator.c (deflated 74%)
+  adding: memory/memory_coordinator3.log (deflated 94%)
+]0;hamed@ubuntu: ~/Desktop/proj1[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1[00m$ zip -r Hamed_Seyedroudbari_p1.zip cpu memory[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpython validateSubmission.py /home/hamed/Desktop/proj1/Hamed_Seyedroudbari_p1.zip [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+Invalid Submission Structure. Check Canvas instructions and make sure that all the files listed are present in your zip file
+]0;hamed@ubuntu: ~/Desktop/proj1[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1[00m$ ls
+[0m[01;34mcpu[0m  [01;31mHamed_Seyedroudbari_p1.zip[0m  [01;34mmemory[0m  [01;34mProject1[0m  validateSubmission.py  [01;32mvcpu_scheduler[0m
+]0;hamed@ubuntu: ~/Desktop/proj1[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1[00m$ ls -al
+total 84
+drwxr-xr-x 5 hamed hamed  4096 Sep 19 18:52 [0m[01;34m.[0m
+drwxr-xr-x 4 hamed hamed  4096 Sep 19 18:51 [01;34m..[0m
+drwxr-xr-x 2 hamed hamed  4096 Sep 19 18:40 [01;34mcpu[0m
+-rw-r--r-- 1 hamed hamed 27872 Sep 19 18:52 [01;31mHamed_Seyedroudbari_p1.zip[0m
+drwxr-xr-x 2 hamed hamed  4096 Sep 19 18:46 [01;34mmemory[0m
+drwxr-xr-x 5 hamed hamed  4096 Sep 19 18:31 [01;34mProject1[0m
+-rw-r--r-- 1 hamed hamed  1387 Sep  8 18:25 validateSubmission.py
+-rwxr-xr-x 1 hamed hamed 29616 Sep 19 17:12 [01;32mvcpu_scheduler[0m
+]0;hamed@ubuntu: ~/Desktop/proj1[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1[00m$ cd cpu
+]0;hamed@ubuntu: ~/Desktop/proj1/cpu[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1/cpu[00m$ ls -al
+total 224
+drwxr-xr-x 2 hamed hamed  4096 Sep 19 18:40 [0m[01;34m.[0m
+drwxr-xr-x 5 hamed hamed  4096 Sep 19 18:52 [01;34m..[0m
+-rw-r--r-- 1 hamed hamed   469 Sep 19 16:45 Makefile
+-rw-r--r-- 1 hamed hamed  1956 Sep 19 18:24 Readme
+-rw-r--r-- 1 hamed hamed 34990 Sep 15 21:51 vcpu_scheduler1.log
+-rw-r--r-- 1 hamed hamed 32171 Sep 15 22:04 vcpu_scheduler2.log
+-rw-r--r-- 1 hamed hamed 32444 Sep 15 23:03 vcpu_scheduler3.log
+-rw-r--r-- 1 hamed hamed 47067 Sep 15 23:23 vcpu_scheduler4.log
+-rw-r--r-- 1 hamed hamed 40960 Sep 19 18:52 vcpu_scheduler5.log
+-rw-r--r-- 1 hamed hamed 14434 Sep 19 17:12 vcpu_scheduler.c
+]0;hamed@ubuntu: ~/Desktop/proj1/cpu[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1/cpu[00m$ cd ..
+]0;hamed@ubuntu: ~/Desktop/proj1[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1[00m$ cd memory/
+]0;hamed@ubuntu: ~/Desktop/proj1/memory[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1/memory[00m$ ls
+Makefile  memory_coordinator1.log  memory_coordinator2.log  memory_coordinator3.log  memory_coordinator.c  Readme
+]0;hamed@ubuntu: ~/Desktop/proj1/memory[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1/memory[00m$ ls -al
+total 164
+drwxr-xr-x 2 hamed hamed  4096 Sep 19 18:46 [0m[01;34m.[0m
+drwxr-xr-x 5 hamed hamed  4096 Sep 19 18:52 [01;34m..[0m
+-rw-r--r-- 1 hamed hamed   485 Sep 19 12:45 Makefile
+-rw-r--r-- 1 hamed hamed 44105 Sep 19 15:35 memory_coordinator1.log
+-rw-r--r-- 1 hamed hamed 35657 Sep 19 14:45 memory_coordinator2.log
+-rw-r--r-- 1 hamed hamed 41936 Sep 19 14:34 memory_coordinator3.log
+-rw-r--r-- 1 hamed hamed  8680 Sep 19 17:05 memory_coordinator.c
+-rw-r--r-- 1 hamed hamed  1792 Sep 19 16:38 Readme
+]0;hamed@ubuntu: ~/Desktop/proj1/memory[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1/memory[00m$ cd.[K ..
+]0;hamed@ubuntu: ~/Desktop/proj1[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1[00m$ ls
+[0m[01;34mcpu[0m  [01;31mHamed_Seyedroudbari_p1.zip[0m  [01;34mmemory[0m  [01;34mProject1[0m  validateSubmission.py  [01;32mvcpu_scheduler[0m
+]0;hamed@ubuntu: ~/Desktop/proj1[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1[00m$ python validateSubmission.py Hamed_Seyedroudbari_p1.zip 
+Invalid Submission Structure. Check Canvas instructions and make sure that all the files listed are present in your zip file
+]0;hamed@ubuntu: ~/Desktop/proj1[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1[00m$ python validateSubmission.py Hamed_Seyedroudbari_p1.zip [K
+Invalid Submission Structure. Check Canvas instructions and make sure that all the files listed are present in your zip file
+]0;hamed@ubuntu: ~/Desktop/proj1[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1[00m$ python validateSubmission.py Hamed_Seyedroudbari_p1.zip[C[C[C[C[C[C[C[C[C[C[C[C/Hamed_Seyedroudbari_p1.zipDHamed_Seyedroudbari_p1.zipeHamed_Seyedroudbari_p1.zipsHamed_Seyedroudbari_p1.zipkHamed_Seyedroudbari_p1.ziptHamed_Seyedroudbari_p1.zipoHamed_Seyedroudbari_p1.zippHamed_Seyedroudbari_p1.zip/Hamed_Seyedroudbari_p1.zippHamed_Seyedroudbari_p1.ziprHamed_Seyedroudbari_p1.zipoHamed_Seyedroudbari_p1.zipjHamed_Seyedroudbari_p1.zip/Hamed_Seyedroudbari_p1.zip
+Traceback (most recent call last):
+  File "validateSubmission.py", line 36, in <module>
+    except FileNotFoundError or FileExistsError:
+NameError: name 'FileNotFoundError' is not defined
+]0;hamed@ubuntu: ~/Desktop/proj1[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1[00m$ pwd
+/home/hamed/Desktop/proj1
+]0;hamed@ubuntu: ~/Desktop/proj1[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1[00m$ pwdython validateSubmission.py /Desktop/proj/Hamed_Seyedroudbari_p1.zip[C/Desktop/proj/Hamed_Seyedroudbari_p1.ziph/Desktop/proj/Hamed_Seyedroudbari_p1.zipo/Desktop/proj/Hamed_Seyedroudbari_p1.zipm/Desktop/proj/Hamed_Seyedroudbari_p1.zipe/Desktop/proj/Hamed_Seyedroudbari_p1.zip[C/Desktop/proj/Hamed_Seyedroudbari_p1.ziph/Desktop/proj/Hamed_Seyedroudbari_p1.zipa/Desktop/proj/Hamed_Seyedroudbari_p1.zipm/Desktop/proj/Hamed_Seyedroudbari_p1.zipe/Desktop/proj/Hamed_Seyedroudbari_p1.zipd/Desktop/proj/Hamed_Seyedroudbari_p1.zip
+Traceback (most recent call last):
+  File "validateSubmission.py", line 36, in <module>
+    except FileNotFoundError or FileExistsError:
+NameError: name 'FileNotFoundError' is not defined
+]0;hamed@ubuntu: ~/Desktop/proj1[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1[00m$ python validateSubmission.py /home/hamed/Desktop/proj/Hamed_Seyedroudbari_p1.zip[C1/Hamed_Seyedroudbari_p1.zip
+Invalid Submission Structure. Check Canvas instructions and make sure that all the files listed are present in your zip file
+]0;hamed@ubuntu: ~/Desktop/proj1[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1[00m$ python validateSubmission.py /home/hamed/Desktop/proj1/Hamed_Seyedroudbari_p1.zip[C[C[C[C[C[C[1P/Desktop/proj1/Hamed_Seyedroudbari_p1.zip[1P/Desktop/proj1/Hamed_Seyedroudbari_p1.zip[1P/Desktop/proj1/Hamed_Seyedroudbari_p1.zip[1P/Desktop/proj1/Hamed_Seyedroudbari_p1.zip[1P/Desktop/proj1/Hamed_Seyedroudbari_p1.zip[1PDesktop/proj1/Hamed_Seyedroudbari_p1.zip[1P/Desktop/proj1/Hamed_Seyedroudbari_p1.zip[1P/Desktop/proj1/Hamed_Seyedroudbari_p1.zip[1P/Desktop/proj1/Hamed_Seyedroudbari_p1.zip[1P/Desktop/proj1/Hamed_Seyedroudbari_p1.zip[1PDesktop/proj1/Hamed_Seyedroudbari_p1.zip
+Traceback (most recent call last):
+  File "validateSubmission.py", line 36, in <module>
+    except FileNotFoundError or FileExistsError:
+NameError: name 'FileNotFoundError' is not defined
+]0;hamed@ubuntu: ~/Desktop/proj1[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1[00m$ python validateSubmission.py /Desktop/proj1/Hamed_Seyedroudbari_p1.ziphome/hamed/Desktop/proj1/Hamed_Seyedroudbari_p1.zipls [K[K[K[11PDesktop/proj1/Hamed_Seyedroudbari_p1.zip[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kls
+[0m[01;34mcpu[0m  [01;31mHamed_Seyedroudbari_p1.zip[0m  [01;34mmemory[0m  [01;34mProject1[0m  validateSubmission.py  [01;32mvcpu_scheduler[0m
+]0;hamed@ubuntu: ~/Desktop/proj1[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1[00m$ ls
+[0m[01;34mcpu[0m  [01;31mHamed_Seyedroudbari_p1.zip[0m  [01;34mmemory[0m  [01;34mProject1[0m  validateSubmission.py  [01;32mvcpu_scheduler[0m
+]0;hamed@ubuntu: ~/Desktop/proj1[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1[00m$ ls -al /memor[K[K[K[K[K[K./memory/
+total 164
+drwxr-xr-x 2 hamed hamed  4096 Sep 19 18:46 [0m[01;34m.[0m
+drwxr-xr-x 5 hamed hamed  4096 Sep 19 18:52 [01;34m..[0m
+-rw-r--r-- 1 hamed hamed   485 Sep 19 12:45 Makefile
+-rw-r--r-- 1 hamed hamed 44105 Sep 19 15:35 memory_coordinator1.log
+-rw-r--r-- 1 hamed hamed 35657 Sep 19 14:45 memory_coordinator2.log
+-rw-r--r-- 1 hamed hamed 41936 Sep 19 14:34 memory_coordinator3.log
+-rw-r--r-- 1 hamed hamed  8680 Sep 19 17:05 memory_coordinator.c
+-rw-r--r-- 1 hamed hamed  1792 Sep 19 16:38 Readme
+]0;hamed@ubuntu: ~/Desktop/proj1[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1[00m$ ls -al ./cpu/
+total 232
+drwxr-xr-x 2 hamed hamed  4096 Sep 19 18:40 [0m[01;34m.[0m
+drwxr-xr-x 5 hamed hamed  4096 Sep 19 18:52 [01;34m..[0m
+-rw-r--r-- 1 hamed hamed   469 Sep 19 16:45 Makefile
+-rw-r--r-- 1 hamed hamed  1956 Sep 19 18:24 Readme
+-rw-r--r-- 1 hamed hamed 34990 Sep 15 21:51 vcpu_scheduler1.log
+-rw-r--r-- 1 hamed hamed 32171 Sep 15 22:04 vcpu_scheduler2.log
+-rw-r--r-- 1 hamed hamed 32444 Sep 15 23:03 vcpu_scheduler3.log
+-rw-r--r-- 1 hamed hamed 47067 Sep 15 23:23 vcpu_scheduler4.log
+-rw-r--r-- 1 hamed hamed 49152 Sep 19 19:00 vcpu_scheduler5.log
+-rw-r--r-- 1 hamed hamed 14434 Sep 19 17:12 vcpu_scheduler.c
+]0;hamed@ubuntu: ~/Desktop/proj1[01;32mhamed@ubuntu[00m:[01;34m~/Desktop/proj1[00m$ ls -al ./cpu/memory/[K -al ./memory/[3Pcpu/[K[K[K[K[K[K[K[K[K[K[K[K[Kls -al ./memory/[Kpython validateSubmission.py /Desktop/proj1/Hamed_Seyedroudbari_p1.ziphome/hamed/Desktop/proj1/Hamed_Seyedroudbari_p1.zip[1P/Hamed_Seyedroudbari_p1.zip[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cwd[Kython validateSubmission.py /Desktop/proj/Hamed_Seyedroudbari_p1.zip[14PHamed_Seyedroudbari_p1.zip [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd ..ls -al[Kcd memory/..[Kls -alcd cpuls -al[Kpython validateSubmission.py /home/hamed/Desktop/proj1/Hamed_Seyedroudbari_p1.zip[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[37Pzip -r Hamed_Seyedroudbari_p1.zip cpu memory[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpython validateSubmission.py /home/hamed/Desktop/proj1/Hamed_Seyedroudbari_p1.zip [1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[38Pzip -r Hamed_Seyedroudbari_p1.zip cpu memory
